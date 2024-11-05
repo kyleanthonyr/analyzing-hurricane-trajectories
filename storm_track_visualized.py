@@ -48,7 +48,7 @@ def plot_storm_tracks(start_year, end_year):
         ]
 
     for storm_id, track in gulf_coast_storms.groupby('storm_id'):
-        ax.plot(track['lon'], track['lat'], marker='o', markersize=2, linestyle='-')
+        ax.plot(track['lon'], track['lat'], marker='o', markersize=2, linestyle='-', alpha=0.5)
 
     ax.set_title(f"Storm Tracks from {start_year} to {end_year} (Gulf Coast Region)")
     plt.draw()
