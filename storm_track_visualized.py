@@ -12,6 +12,10 @@ file_path = "data/detailed_storm_data.pkl"
 with open(file_path, 'rb') as file:
     storm_data = pickle.load(file)
 
+city_path = "data/cities_with_coordinats.pkl"
+with open(city_path, 'rb') as file:
+    city_data = pickle.load(file)
+
 storm_data['time'] = pd.to_datetime(storm_data['time'])
 
 gulf_coast_bounds = {
@@ -93,10 +97,29 @@ end_year_slider.on_changed(update)
 resetax = fig.add_axes([0.8, 0.025, 0.1, 0.04])
 reset_button = Button(resetax, 'Reset', hovercolor='0.975')
 
+cityax = fig.add_axes([0.6, 0.025, 0.1, 0.04])
+cities_button = Button(cityax, 'Show Cities', hovercolor='0.975')
+
+
 def reset(event):
     start_year_slider.reset()
     end_year_slider.reset()
 
+def show_cities(event):
+    cities_in_area = city_data[
+        (city_data['Latitude'] >= gulf_coast_bounds["lat_min"]) &
+        (city_data['Latitude'] <= gulf_coast_bounds["lat_max"]) &
+        (city_data['Longitude'] >= gulf_coast_bounds["lon_min"]) &
+        (city_data['Longitude'] <= gulf_coast_bounds["lon_max"])
+        ]
+
+    for city_name, track in cities_in_area.groupby('City Name'):
+        ax.plot(track['Longitude'], track['Latitude'], marker="*", markersize=5, color="red", alpha=1)
+        ax.text(track.iloc[0,3], track.iloc[0,2], city_name, fontsize=5, color='black')
+
+    plt.draw()
+
 reset_button.on_clicked(reset)
+cities_button.on_clicked(show_cities)
 
 plt.show()
