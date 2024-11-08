@@ -75,7 +75,7 @@ def plot_storm_tracks(start_year, end_year):
         if storm_id not in storms:
             storms.append(storm_id)
         if show_names == True:            
-            ax.text(track.iloc[0,6]+0.2, track.iloc[0,5]+0.1, str(track.iloc[0,10]), fontsize=5, color='black')
+            ax.text(track.iloc[0,6]+0.2, track.iloc[0,5]+0.1, str(track.iloc[0,11]+" "+track.iloc[0,10]), fontsize=5, color='black')
             
         ax.plot(track['lon'], track['lat'], marker='o', markersize=2, linestyle='-', alpha=0.5)
 
