@@ -67,13 +67,15 @@ def plot_storm_tracks(start_year, end_year):
             ax.plot(track['Longitude']-0.4, track['Latitude']+0.1, marker="*", markersize=5, color="red", alpha=1)
             ax.text(track.iloc[0,3], track.iloc[0,2], city_name, fontsize=5, color='black')
 
+    storms = []
 
     for storm_id, track in gulf_coast_storms.groupby('storm_id'):
-        if show_names == True:
-            hours = str(int(((track.size / 12) - 1)*6))
-            
-            huricane_name = str(track.iloc[0,11]+" "+track.iloc[0,10]+" "+hours+" hours")
-            ax.text(track.iloc[0,6]+0.2, track.iloc[0,5]+0.1, huricane_name, fontsize=5, color='black')
+        
+        
+        if storm_id not in storms:
+            storms.append(storm_id)
+        if show_names == True:            
+            ax.text(track.iloc[0,6]+0.2, track.iloc[0,5]+0.1, str(track.iloc[0,10]), fontsize=5, color='black')
             
         ax.plot(track['lon'], track['lat'], marker='o', markersize=2, linestyle='-', alpha=0.5)
 
@@ -168,9 +170,39 @@ def show_storm_names(event):
 
     plot_storm_tracks(start_year, end_year)
 
+def write_storm_info():
+    file = open("storm_info.txt", "a")
+    
+    storm_data_years = storm_data[(storm_data['time'].dt.year >= min_year) &
+                                  (storm_data['time'].dt.year <= max_year)]
+
+    gulf_coast_storms = storm_data_years[
+        (storm_data_years['lat'] >= gulf_coast_bounds["lat_min"]) &
+        (storm_data_years['lat'] <= gulf_coast_bounds["lat_max"]) &
+        (storm_data_years['lon'] >= gulf_coast_bounds["lon_min"]) &
+        (storm_data_years['lon'] <= gulf_coast_bounds["lon_max"])
+        ]
+
+    for storm_id, track in gulf_coast_storms.groupby('storm_id'):
+        minInt = str(int(min(track['vmax'])))
+        maxInt = str(int(max(track['vmax'])))
+        avgInt = sum(track['vmax']) / track['vmax'].size
+        avgInt = "{:.2f}".format(avgInt)
+
+        hours = str(int(((track.size / 12) - 1)*6))
+            
+        huricane_info = str(track.iloc[0,11]+" "+track.iloc[0,10]+" "+hours+" hours\n"+
+                            "minimum intensity "+minInt+" maximum intensity "+maxInt+" average intensity "+avgInt+"\n\n"
+                            )
+        file.write(huricane_info)
+
+    file.close()
+
 
 reset_button.on_clicked(reset)
 cities_button.on_clicked(show_cities)
 names_button.on_clicked(show_storm_names)
+
+write_storm_info()
 
 plt.show()
