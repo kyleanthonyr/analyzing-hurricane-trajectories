@@ -1,540 +1,720 @@
 UNNAMED AL012000 18 hours
 minimum intensity 25 maximum intensity 25 average intensity 25.00
+2000-06-07 18:00:00
 
 ALLISON AL012001 204 hours
 minimum intensity 15 maximum intensity 50 average intensity 25.86
+2001-06-05 12:00:00
 
 ARLENE AL012005 108 hours
 minimum intensity 20 maximum intensity 60 average intensity 42.37
+2005-06-08 18:00:00
 
 ALBERTO AL012006 108 hours
 minimum intensity 25 maximum intensity 60 average intensity 40.79
+2006-06-10 06:00:00
 
 ARTHUR AL012008 54 hours
 minimum intensity 25 maximum intensity 40 average intensity 34.00
+2008-05-31 00:00:00
 
 ALEX AL012010 174 hours
 minimum intensity 25 maximum intensity 95 average intensity 52.83
+2010-06-24 18:00:00
 
 ARLENE AL012011 72 hours
 minimum intensity 25 maximum intensity 55 average intensity 41.92
+2011-06-28 06:00:00
 
 ALBERTO AL012012 0 hours
 minimum intensity 35 maximum intensity 35 average intensity 35.00
+2012-05-21 00:00:00
 
 ANDREA AL012013 48 hours
 minimum intensity 35 maximum intensity 55 average intensity 45.00
+2013-06-05 18:00:00
 
 ALBERTO AL012018 108 hours
 minimum intensity 30 maximum intensity 55 average intensity 37.11
+2018-05-25 12:00:00
 
 ALEX AL012022 48 hours
 minimum intensity 30 maximum intensity 40 average intensity 34.44
+2022-06-02 18:00:00
 
 ALBERTO AL012024 96 hours
 minimum intensity 25 maximum intensity 45 average intensity 34.12
+2024-06-16 12:00:00
 
 UNNAMED AL021999 18 hours
 minimum intensity 25 maximum intensity 30 average intensity 28.75
+1999-07-02 18:00:00
 
 BERTHA AL022002 132 hours
 minimum intensity 15 maximum intensity 35 average intensity 23.04
+2002-08-04 18:00:00
 
 BONNIE AL022004 138 hours
 minimum intensity 20 maximum intensity 55 average intensity 36.04
+2004-08-07 12:00:00
 
 BRET AL022005 36 hours
 minimum intensity 25 maximum intensity 35 average intensity 31.43
+2005-06-28 18:00:00
 
 BARRY AL022007 90 hours
 minimum intensity 25 maximum intensity 50 average intensity 33.12
+2007-05-31 00:00:00
 
 TWO AL022010 54 hours
 minimum intensity 20 maximum intensity 30 average intensity 27.00
+2010-07-07 06:00:00
 
 BERYL AL022012 66 hours
 minimum intensity 25 maximum intensity 60 average intensity 37.08
+2012-05-27 23:00:00
 
 BARRY AL022013 132 hours
 minimum intensity 20 maximum intensity 40 average intensity 30.22
+2013-06-16 00:00:00
 
 BILL AL022015 66 hours
 minimum intensity 20 maximum intensity 50 average intensity 36.25
+2015-06-16 00:00:00
 
 BONNIE AL022016 12 hours
 minimum intensity 25 maximum intensity 30 average intensity 26.67
+2016-05-29 18:00:00
 
 BARRY AL022019 126 hours
 minimum intensity 20 maximum intensity 65 average intensity 42.27
+2019-07-10 12:00:00
 
 BERTHA AL022020 6 hours
 minimum intensity 25 maximum intensity 30 average intensity 27.50
+2020-05-27 18:00:00
 
 BONNIE AL022022 84 hours
 minimum intensity 35 maximum intensity 85 average intensity 53.67
+2022-07-01 12:00:00
 
 ARLENE AL022023 84 hours
 minimum intensity 20 maximum intensity 35 average intensity 28.33
+2023-05-31 18:00:00
 
 BERYL AL022024 126 hours
 minimum intensity 25 maximum intensity 110 average intensity 62.50
+2024-07-04 06:00:00
 
 BRET AL031999 126 hours
 minimum intensity 30 maximum intensity 125 average intensity 65.91
+1999-08-18 18:00:00
 
 BARRY AL032001 126 hours
 minimum intensity 10 maximum intensity 60 average intensity 36.14
+2001-08-02 12:00:00
 
 BILL AL032003 102 hours
 minimum intensity 20 maximum intensity 50 average intensity 32.50
+2003-06-28 06:00:00
 
 CHARLEY AL032004 60 hours
 minimum intensity 75 maximum intensity 130 average intensity 99.55
+2004-08-12 12:00:00
 
 CINDY AL032005 108 hours
 minimum intensity 20 maximum intensity 65 average intensity 37.11
+2005-07-03 18:00:00
 
 BONNIE AL032010 54 hours
 minimum intensity 15 maximum intensity 35 average intensity 26.00
+2010-07-23 14:30:00
 
 COLIN AL032016 48 hours
 minimum intensity 30 maximum intensity 45 average intensity 40.56
+2016-06-05 12:00:00
 
 CINDY AL032017 90 hours
 minimum intensity 30 maximum intensity 50 average intensity 40.94
+2017-06-19 18:00:00
 
 THREE AL032019 0 hours
 minimum intensity 30 maximum intensity 30 average intensity 30.00
+2019-07-23 12:00:00
 
 CRISTOBAL AL032020 186 hours
 minimum intensity 25 maximum intensity 50 average intensity 39.38
+2020-06-01 18:00:00
 
 CLAUDETTE AL032021 84 hours
 minimum intensity 25 maximum intensity 40 average intensity 32.00
+2021-06-17 18:00:00
 
 COLIN AL032022 12 hours
 minimum intensity 30 maximum intensity 35 average intensity 33.33
+2022-07-01 18:00:00
 
 CHRIS AL032024 102 hours
 minimum intensity 25 maximum intensity 35 average intensity 28.89
+2024-06-27 06:00:00
 
 CHANTAL AL042001 72 hours
 minimum intensity 25 maximum intensity 60 average intensity 45.38
+2001-08-19 18:00:00
 
 CLAUDETTE AL042003 162 hours
 minimum intensity 40 maximum intensity 80 average intensity 54.11
+2003-07-10 00:00:00
 
 DENNIS AL042005 78 hours
 minimum intensity 25 maximum intensity 125 average intensity 89.64
+2005-07-08 18:00:00
 
 CHRIS AL042006 6 hours
 minimum intensity 15 maximum intensity 20 average intensity 17.50
+2006-08-06 06:00:00
 
 DEAN AL042007 72 hours
 minimum intensity 30 maximum intensity 150 average intensity 100.00
+2007-08-20 12:00:00
 
 DOLLY AL042008 126 hours
 minimum intensity 35 maximum intensity 85 average intensity 56.14
+2008-07-20 12:00:00
 
 CLAUDETTE AL042009 42 hours
 minimum intensity 20 maximum intensity 50 average intensity 35.62
+2009-08-16 06:00:00
 
 DON AL042011 78 hours
 minimum intensity 25 maximum intensity 45 average intensity 36.79
+2011-07-27 06:00:00
 
 DEBBY AL042012 102 hours
 minimum intensity 30 maximum intensity 55 average intensity 41.11
+2012-06-23 12:00:00
 
 DANIELLE AL042016 66 hours
 minimum intensity 20 maximum intensity 40 average intensity 30.00
+2016-06-18 18:00:00
 
 DANNY AL042021 6 hours
 minimum intensity 30 maximum intensity 35 average intensity 32.50
+2021-06-28 23:20:00
 
 DEBBY AL042024 96 hours
 minimum intensity 25 maximum intensity 70 average intensity 43.82
+2024-08-03 06:00:00
 
 BERYL AL052000 48 hours
 minimum intensity 25 maximum intensity 45 average intensity 36.11
+2000-08-13 18:00:00
 
 EDOUARD AL052002 48 hours
 minimum intensity 20 maximum intensity 35 average intensity 25.56
+2002-09-04 18:00:00
 
 EMILY AL052005 96 hours
 minimum intensity 45 maximum intensity 135 average intensity 96.18
+2005-07-17 06:00:00
 
 ERIN AL052007 60 hours
 minimum intensity 25 maximum intensity 35 average intensity 29.09
+2007-08-15 00:00:00
 
 EDOUARD AL052008 78 hours
 minimum intensity 20 maximum intensity 55 average intensity 36.79
+2008-08-03 12:00:00
 
 FIVE AL052010 186 hours
 minimum intensity 15 maximum intensity 30 average intensity 22.34
+2010-08-10 06:00:00
 
 ERNESTO AL052012 108 hours
 minimum intensity 30 maximum intensity 85 average intensity 60.00
+2012-08-06 12:00:00
 
 DOLLY AL052014 66 hours
 minimum intensity 20 maximum intensity 45 average intensity 34.58
+2014-09-01 12:00:00
 
 EARL AL052016 102 hours
 minimum intensity 25 maximum intensity 75 average intensity 51.67
+2016-08-02 18:00:00
 
 ELSA AL052021 84 hours
 minimum intensity 40 maximum intensity 65 average intensity 52.00
+2021-07-05 12:00:00
 
 FAY AL062002 120 hours
 minimum intensity 10 maximum intensity 50 average intensity 25.71
+2002-09-05 18:00:00
 
 FRANCES AL062004 78 hours
 minimum intensity 25 maximum intensity 90 average intensity 50.00
+2004-09-05 04:30:00
 
 ERNESTO AL062006 42 hours
 minimum intensity 35 maximum intensity 45 average intensity 38.75
+2006-08-30 00:00:00
 
 FELIX AL062007 66 hours
 minimum intensity 15 maximum intensity 140 average intensity 55.42
+2007-09-04 00:00:00
 
 FAY AL062008 246 hours
 minimum intensity 15 maximum intensity 60 average intensity 41.43
+2008-08-18 00:00:00
 
 FERNAND AL062013 36 hours
 minimum intensity 25 maximum intensity 50 average intensity 39.29
+2013-08-25 12:00:00
 
 EMILY AL062017 42 hours
 minimum intensity 30 maximum intensity 50 average intensity 36.88
+2017-07-30 18:00:00
 
 FLORENCE AL062018 24 hours
 minimum intensity 25 maximum intensity 45 average intensity 35.00
+2018-09-16 00:00:00
 
 FAY AL062020 66 hours
 minimum intensity 20 maximum intensity 30 average intensity 22.08
+2020-07-05 12:00:00
 
 FRED AL062021 96 hours
 minimum intensity 25 maximum intensity 55 average intensity 38.53
+2021-08-14 00:00:00
 
 FRANCINE AL062024 162 hours
 minimum intensity 15 maximum intensity 80 average intensity 40.71
+2024-09-06 12:00:00
 
 UNNAMED AL071999 42 hours
 minimum intensity 25 maximum intensity 30 average intensity 28.75
+1999-09-05 18:00:00
 
 UNNAMED AL072003 36 hours
 minimum intensity 15 maximum intensity 30 average intensity 22.14
+2003-07-25 12:00:00
 
 GERT AL072005 42 hours
 minimum intensity 25 maximum intensity 40 average intensity 31.88
+2005-07-23 18:00:00
 
 GUSTAV AL072008 138 hours
 minimum intensity 15 maximum intensity 135 average intensity 69.58
+2008-08-30 00:00:00
 
 HELENE AL072012 114 hours
 minimum intensity 25 maximum intensity 40 average intensity 28.50
+2012-08-14 06:00:00
 
 FRANKLIN AL072017 102 hours
 minimum intensity 25 maximum intensity 75 average intensity 48.61
+2017-08-06 18:00:00
 
 GORDON AL072018 120 hours
 minimum intensity 15 maximum intensity 60 average intensity 37.14
+2018-09-03 09:00:00
 
 FERNAND AL072019 48 hours
 minimum intensity 25 maximum intensity 45 average intensity 36.67
+2019-09-03 06:00:00
 
 GRACE AL072021 90 hours
 minimum intensity 45 maximum intensity 105 average intensity 72.19
+2021-08-18 06:00:00
 
 GABRIELLE AL082001 90 hours
 minimum intensity 25 maximum intensity 60 average intensity 36.56
+2001-09-11 18:00:00
 
 ERIKA AL082003 54 hours
 minimum intensity 35 maximum intensity 65 average intensity 49.00
+2003-08-14 18:00:00
 
 HARVEY AL082011 96 hours
 minimum intensity 20 maximum intensity 55 average intensity 37.06
+2011-08-19 00:00:00
 
 EIGHT AL082013 18 hours
 minimum intensity 25 maximum intensity 30 average intensity 27.50
+2013-09-06 12:00:00
 
 HANNA AL082020 96 hours
 minimum intensity 25 maximum intensity 80 average intensity 51.47
+2020-07-23 00:00:00
 
 UNNAMED AL092000 30 hours
 minimum intensity 25 maximum intensity 30 average intensity 26.67
+2000-09-08 18:00:00
 
 UNNAMED AL092001 18 hours
 minimum intensity 25 maximum intensity 30 average intensity 28.75
+2001-09-19 18:00:00
 
 HANNA AL092002 96 hours
 minimum intensity 20 maximum intensity 50 average intensity 37.65
+2002-09-12 00:00:00
 
 IVAN AL092004 228 hours
 minimum intensity 25 maximum intensity 140 average intensity 84.23
+2004-09-12 06:00:00
 
 HUMBERTO AL092007 60 hours
 minimum intensity 20 maximum intensity 80 average intensity 44.09
+2007-09-12 06:00:00
 
 IKE AL092008 132 hours
 minimum intensity 35 maximum intensity 95 average intensity 78.48
+2008-09-09 00:00:00
 
 ISAAC AL092012 126 hours
 minimum intensity 25 maximum intensity 70 average intensity 55.68
+2012-08-26 12:00:00
 
 HANNA AL092014 216 hours
 minimum intensity 15 maximum intensity 35 average intensity 25.00
+2014-10-21 00:00:00
 
 HERMINE AL092016 132 hours
 minimum intensity 30 maximum intensity 70 average intensity 44.13
+2016-08-28 18:00:00
 
 HARVEY AL092017 276 hours
 minimum intensity 20 maximum intensity 115 average intensity 46.06
+2017-08-21 06:00:00
 
 ISAIAS AL092020 0 hours
 minimum intensity 60 maximum intensity 60 average intensity 60.00
+2020-08-03 12:00:00
 
 IDA AL092021 120 hours
 minimum intensity 25 maximum intensity 130 average intensity 70.71
+2021-08-27 00:00:00
 
 IAN AL092022 120 hours
 minimum intensity 40 maximum intensity 140 average intensity 93.33
+2022-09-25 18:00:00
 
 HAROLD AL092023 36 hours
 minimum intensity 25 maximum intensity 50 average intensity 37.86
+2023-08-21 12:00:00
 
 HELENE AL092024 138 hours
 minimum intensity 20 maximum intensity 120 average intensity 48.96
+2024-09-21 18:00:00
 
 HARVEY AL101999 72 hours
 minimum intensity 30 maximum intensity 50 average intensity 43.08
+1999-09-19 06:00:00
 
 ISIDORE AL102002 204 hours
 minimum intensity 20 maximum intensity 110 average intensity 68.71
+2002-09-19 06:00:00
 
 TEN AL102007 18 hours
 minimum intensity 20 maximum intensity 30 average intensity 26.25
+2007-09-21 12:00:00
 
 HERMINE AL102010 108 hours
 minimum intensity 20 maximum intensity 60 average intensity 33.68
+2010-09-04 18:00:00
 
 INGRID AL102013 126 hours
 minimum intensity 20 maximum intensity 75 average intensity 47.95
+2013-09-12 06:00:00
 
 IDALIA AL102023 120 hours
 minimum intensity 25 maximum intensity 115 average intensity 61.67
+2023-08-26 12:00:00
 
 UNNAMED AL111999 54 hours
 minimum intensity 30 maximum intensity 30 average intensity 30.00
+1999-10-04 06:00:00
 
 GORDON AL112000 114 hours
 minimum intensity 25 maximum intensity 70 average intensity 43.00
+2000-09-14 12:00:00
 
 IRIS AL112001 42 hours
 minimum intensity 30 maximum intensity 125 average intensity 93.12
+2001-10-08 00:00:00
 
 GRACE AL112003 72 hours
 minimum intensity 15 maximum intensity 35 average intensity 26.92
+2003-08-30 12:00:00
 
 JEANNE AL112004 54 hours
 minimum intensity 20 maximum intensity 105 average intensity 52.50
+2004-09-26 04:00:00
 
 JOSE AL112005 30 hours
 minimum intensity 25 maximum intensity 50 average intensity 36.67
+2005-08-22 12:00:00
 
 IDA AL112009 180 hours
 minimum intensity 25 maximum intensity 90 average intensity 52.10
+2009-11-04 06:00:00
 
 JULIA AL112016 42 hours
 minimum intensity 30 maximum intensity 45 average intensity 39.38
+2016-09-13 06:00:00
 
 IRMA AL112017 84 hours
 minimum intensity 15 maximum intensity 115 average intensity 71.67
+2017-09-09 18:00:00
 
 IMELDA AL112019 48 hours
 minimum intensity 25 maximum intensity 40 average intensity 32.22
+2019-09-17 12:00:00
 
 HELENE AL122000 84 hours
 minimum intensity 25 maximum intensity 60 average intensity 34.33
+2000-09-20 00:00:00
 
 KYLE AL122002 12 hours
 minimum intensity 30 maximum intensity 35 average intensity 33.33
+2002-10-11 00:00:00
 
 HENRI AL122003 78 hours
 minimum intensity 25 maximum intensity 50 average intensity 30.71
+2003-09-03 18:00:00
 
 KATRINA AL122005 120 hours
 minimum intensity 40 maximum intensity 150 average intensity 96.67
+2005-08-25 22:30:00
 
 KAREN AL122013 78 hours
 minimum intensity 25 maximum intensity 55 average intensity 43.21
+2013-10-03 06:00:00
 
 IRENE AL131999 114 hours
 minimum intensity 20 maximum intensity 70 average intensity 52.50
+1999-10-12 12:00:00
 
 LILI AL132002 108 hours
 minimum intensity 30 maximum intensity 125 average intensity 86.05
+2002-09-30 18:00:00
 
 LORENZO AL132007 78 hours
 minimum intensity 20 maximum intensity 70 average intensity 39.29
+2007-09-25 18:00:00
 
 MARCO AL132008 42 hours
 minimum intensity 25 maximum intensity 55 average intensity 42.50
+2008-10-06 00:00:00
 
 KARL AL132010 114 hours
 minimum intensity 25 maximum intensity 110 average intensity 61.25
+2010-09-14 06:00:00
 
 LEE AL132011 126 hours
 minimum intensity 15 maximum intensity 50 average intensity 35.23
+2011-09-02 00:00:00
 
 KATIA AL132017 102 hours
 minimum intensity 25 maximum intensity 90 average intensity 57.78
+2017-09-05 12:00:00
 
 LAURA AL132020 78 hours
 minimum intensity 35 maximum intensity 130 average intensity 80.00
+2020-08-24 18:00:00
 
 MINDY AL132021 24 hours
 minimum intensity 30 maximum intensity 50 average intensity 39.00
+2021-09-08 18:00:00
 
 JULIA AL132022 54 hours
 minimum intensity 30 maximum intensity 75 average intensity 52.50
+2022-10-08 18:00:00
 
 UNNAMED AL142002 60 hours
 minimum intensity 25 maximum intensity 30 average intensity 29.09
+2002-10-14 12:00:00
 
 MATTHEW AL142004 72 hours
 minimum intensity 20 maximum intensity 40 average intensity 33.08
+2004-10-08 12:00:00
 
 MATTHEW AL142016 24 hours
 minimum intensity 85 maximum intensity 105 average intensity 94.00
+2016-10-07 12:00:00
 
 MICHAEL AL142018 120 hours
 minimum intensity 25 maximum intensity 140 average intensity 75.00
+2018-10-06 18:00:00
 
 MARCO AL142020 120 hours
 minimum intensity 20 maximum intensity 65 average intensity 41.43
+2020-08-20 18:00:00
 
 NICHOLAS AL142021 120 hours
 minimum intensity 15 maximum intensity 65 average intensity 36.67
+2021-09-12 12:00:00
 
 KARL AL142022 102 hours
 minimum intensity 20 maximum intensity 50 average intensity 35.83
+2022-10-11 12:00:00
 
 MILTON AL142024 150 hours
 minimum intensity 25 maximum intensity 150 average intensity 82.31
+2024-10-04 00:00:00
 
 KATRINA AL151999 90 hours
 minimum intensity 20 maximum intensity 35 average intensity 26.88
+1999-10-28 18:00:00
 
 KEITH AL152000 198 hours
 minimum intensity 25 maximum intensity 120 average intensity 60.15
+2000-09-28 18:00:00
 
 MICHELLE AL152001 162 hours
 minimum intensity 30 maximum intensity 120 average intensity 69.29
+2001-10-29 18:00:00
 
 MATTHEW AL152010 66 hours
 minimum intensity 20 maximum intensity 50 average intensity 36.25
+2010-09-24 12:00:00
 
 NATE AL152011 132 hours
 minimum intensity 25 maximum intensity 65 average intensity 45.00
+2011-09-06 18:00:00
 
 OMAR AL152020 0 hours
 minimum intensity 25 maximum intensity 25 average intensity 25.00
+2020-08-30 18:00:00
 
 LISA AL152022 96 hours
 minimum intensity 25 maximum intensity 80 average intensity 45.00
+2022-11-01 12:00:00
 
 NADINE AL152024 90 hours
 minimum intensity 20 maximum intensity 45 average intensity 27.50
+2024-10-16 18:00:00
 
 LENNY AL161999 12 hours
 minimum intensity 30 maximum intensity 30 average intensity 30.00
+1999-11-13 18:00:00
 
 LESLIE AL162000 6 hours
 minimum intensity 30 maximum intensity 30 average intensity 30.00
+2000-10-04 12:00:00
 
 SIXTEEN AL162008 42 hours
 minimum intensity 25 maximum intensity 25 average intensity 25.00
+2008-10-14 12:00:00
 
 NICOLE AL162010 48 hours
 minimum intensity 25 maximum intensity 40 average intensity 35.56
+2010-09-28 00:00:00
 
 OTTO AL162016 144 hours
 minimum intensity 20 maximum intensity 100 average intensity 48.60
+2016-11-17 18:00:00
 
 NATE AL162017 132 hours
 minimum intensity 20 maximum intensity 80 average intensity 43.04
+2017-10-03 12:00:00
 
 NESTOR AL162019 66 hours
 minimum intensity 35 maximum intensity 50 average intensity 42.50
+2019-10-17 12:00:00
 
 NANA AL162020 54 hours
 minimum intensity 20 maximum intensity 65 average intensity 48.50
+2020-09-02 00:00:00
 
 LARRY AL172003 246 hours
 minimum intensity 15 maximum intensity 55 average intensity 34.29
+2003-09-27 18:00:00
 
 OLGA AL172007 66 hours
 minimum intensity 25 maximum intensity 30 average intensity 29.58
+2007-12-13 12:00:00
 
 PALOMA AL172008 108 hours
 minimum intensity 20 maximum intensity 110 average intensity 44.21
+2008-11-05 18:00:00
 
 OLGA AL172019 24 hours
 minimum intensity 35 maximum intensity 45 average intensity 42.00
+2019-10-25 12:00:00
 
 NICOLE AL172022 36 hours
 minimum intensity 25 maximum intensity 65 average intensity 41.43
+2022-11-10 07:45:00
 
 RITA AL182005 132 hours
 minimum intensity 25 maximum intensity 155 average intensity 100.65
+2005-09-20 12:00:00
 
 PAULA AL182010 108 hours
 minimum intensity 30 maximum intensity 90 average intensity 62.11
+2010-10-11 00:00:00
 
 RINA AL182011 180 hours
 minimum intensity 20 maximum intensity 100 average intensity 53.06
+2011-10-22 00:00:00
 
 PHILIPPE AL182017 36 hours
 minimum intensity 30 maximum intensity 35 average intensity 31.43
+2017-10-27 18:00:00
 
 RICHARD AL192010 168 hours
 minimum intensity 20 maximum intensity 85 average intensity 43.79
+2010-10-19 18:00:00
 
 SALLY AL192020 150 hours
 minimum intensity 30 maximum intensity 95 average intensity 54.04
+2020-09-12 06:00:00
 
 STAN AL202005 96 hours
 minimum intensity 25 maximum intensity 70 average intensity 39.71
+2005-10-01 12:00:00
 
 TWENTY-ONE AL212023 30 hours
 minimum intensity 20 maximum intensity 25 average intensity 24.17
+2023-10-23 12:00:00
 
 TAMMY AL222005 42 hours
 minimum intensity 10 maximum intensity 45 average intensity 32.50
+2005-10-05 12:00:00
 
 BETA AL222020 198 hours
 minimum intensity 15 maximum intensity 55 average intensity 36.03
+2020-09-17 06:00:00
 
 WILMA AL252005 162 hours
 minimum intensity 65 maximum intensity 160 average intensity 112.86
+2005-10-18 12:00:00
 
 GAMMA AL252020 120 hours
 minimum intensity 25 maximum intensity 65 average intensity 41.43
+2020-10-02 00:00:00
 
 DELTA AL262020 138 hours
 minimum intensity 20 maximum intensity 120 average intensity 76.25
+2020-10-06 06:00:00
 
 BETA AL272005 102 hours
 minimum intensity 20 maximum intensity 100 average intensity 56.94
+2005-10-26 18:00:00
 
 GAMMA AL282005 108 hours
 minimum intensity 25 maximum intensity 45 average intensity 32.11
+2005-11-17 12:00:00
 
 ZETA AL282020 126 hours
 minimum intensity 25 maximum intensity 100 average intensity 61.14
+2020-10-24 12:00:00
 
 ETA AL292020 252 hours
 minimum intensity 25 maximum intensity 130 average intensity 58.60
+2020-11-02 06:00:00
 
 IOTA AL312020 60 hours
 minimum intensity 25 maximum intensity 135 average intensity 89.09
+2020-11-16 06:00:00
 

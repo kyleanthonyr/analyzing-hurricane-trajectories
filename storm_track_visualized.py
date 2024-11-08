@@ -171,7 +171,7 @@ def show_storm_names(event):
     plot_storm_tracks(start_year, end_year)
 
 def write_storm_info():
-    file = open("storm_info.txt", "a")
+    file = open("storm_info.txt", "w")
     
     storm_data_years = storm_data[(storm_data['time'].dt.year >= min_year) &
                                   (storm_data['time'].dt.year <= max_year)]
@@ -189,12 +189,19 @@ def write_storm_info():
         avgInt = sum(track['vmax']) / track['vmax'].size
         avgInt = "{:.2f}".format(avgInt)
 
+        date = track.iloc[0,1]
+        date = str(date)
+        #print(date)
+    
         hours = str(int(((track.size / 12) - 1)*6))
             
         huricane_info = str(track.iloc[0,11]+" "+track.iloc[0,10]+" "+hours+" hours\n"+
-                            "minimum intensity "+minInt+" maximum intensity "+maxInt+" average intensity "+avgInt+"\n\n"
+                            "minimum intensity "+minInt+" maximum intensity "+maxInt+" average intensity "+avgInt+"\n"+
+                            date+"\n\n"
                             )
+
         file.write(huricane_info)
+        
 
     file.close()
 
