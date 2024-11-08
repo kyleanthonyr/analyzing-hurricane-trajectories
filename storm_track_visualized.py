@@ -32,6 +32,9 @@ max_year = current_year
 init_start_year = min_year
 init_end_year = max_year
 
+show_names = False
+show_cities = False
+
 def plot_storm_tracks(start_year, end_year):
     ax.clear()
     ax.set_extent([gulf_coast_bounds["lon_min"], gulf_coast_bounds["lon_max"],
@@ -50,11 +53,32 @@ def plot_storm_tracks(start_year, end_year):
         (storm_data_years['lon'] >= gulf_coast_bounds["lon_min"]) &
         (storm_data_years['lon'] <= gulf_coast_bounds["lon_max"])
         ]
+    
+
+    if show_cities == True:
+        cities_in_area = city_data[
+        (city_data['Latitude'] >= gulf_coast_bounds["lat_min"]) &
+        (city_data['Latitude'] <= gulf_coast_bounds["lat_max"]) &
+        (city_data['Longitude'] >= gulf_coast_bounds["lon_min"]) &
+        (city_data['Longitude'] <= gulf_coast_bounds["lon_max"])
+        ]
+
+        for city_name, track in cities_in_area.groupby('City Name'):
+            ax.plot(track['Longitude']-0.4, track['Latitude']+0.1, marker="*", markersize=5, color="red", alpha=1)
+            ax.text(track.iloc[0,3], track.iloc[0,2], city_name, fontsize=5, color='black')
+
 
     for storm_id, track in gulf_coast_storms.groupby('storm_id'):
+        if show_names == True:
+            hours = str(int(((track.size / 12) - 1)*6))
+            
+            huricane_name = str(track.iloc[0,11]+" "+track.iloc[0,10]+" "+hours+" hours")
+            ax.text(track.iloc[0,6]+0.2, track.iloc[0,5]+0.1, huricane_name, fontsize=5, color='black')
+            
         ax.plot(track['lon'], track['lat'], marker='o', markersize=2, linestyle='-', alpha=0.5)
 
     ax.set_title(f"Storm Tracks from {start_year} to {end_year} (Gulf Coast Region)")
+
     plt.draw()
 
 fig, ax = plt.subplots(figsize=(12, 8), subplot_kw={'projection': ccrs.PlateCarree()})
@@ -86,8 +110,11 @@ def update(val):
     end_year = int(end_year_slider.val)
 
     if start_year > end_year:
-        start_year = end_year
-        start_year_slider.set_val(start_year)
+        #start_year = end_year
+        #start_year_slider.set_val(start_year)
+        end_year=start_year
+        end_year_slider.set_val(end_year)
+        
 
     plot_storm_tracks(start_year, end_year)
 
@@ -97,29 +124,53 @@ end_year_slider.on_changed(update)
 resetax = fig.add_axes([0.8, 0.025, 0.1, 0.04])
 reset_button = Button(resetax, 'Reset', hovercolor='0.975')
 
-cityax = fig.add_axes([0.6, 0.025, 0.1, 0.04])
+cityax = fig.add_axes([0.675, 0.025, 0.1, 0.04])
 cities_button = Button(cityax, 'Show Cities', hovercolor='0.975')
 
+storm_names_ax = fig.add_axes([0.525, 0.025, 0.125, 0.04])
+names_button = Button(storm_names_ax, 'Show Storm Info', hovercolor='0.975')
 
 def reset(event):
     start_year_slider.reset()
     end_year_slider.reset()
 
 def show_cities(event):
-    cities_in_area = city_data[
-        (city_data['Latitude'] >= gulf_coast_bounds["lat_min"]) &
-        (city_data['Latitude'] <= gulf_coast_bounds["lat_max"]) &
-        (city_data['Longitude'] >= gulf_coast_bounds["lon_min"]) &
-        (city_data['Longitude'] <= gulf_coast_bounds["lon_max"])
-        ]
+    global show_cities
+    
+    if show_cities == True:
+        show_cities = False
+    else:
+        show_cities = True
 
-    for city_name, track in cities_in_area.groupby('City Name'):
-        ax.plot(track['Longitude'], track['Latitude'], marker="*", markersize=5, color="red", alpha=1)
-        ax.text(track.iloc[0,3], track.iloc[0,2], city_name, fontsize=5, color='black')
+    start_year = int(start_year_slider.val)
+    end_year = int(end_year_slider.val)
+    
+    if start_year > end_year:
+        start_year = end_year
+        start_year_slider.set_val(start_year)
 
-    plt.draw()
+    plot_storm_tracks(start_year, end_year)
+    
+def show_storm_names(event):
+    global show_names
+
+    if show_names == True:
+        show_names = False
+    else:
+        show_names = True
+    
+    start_year = int(start_year_slider.val)
+    end_year = int(end_year_slider.val)
+    
+    if start_year > end_year:
+        start_year = end_year
+        start_year_slider.set_val(start_year)
+
+    plot_storm_tracks(start_year, end_year)
+
 
 reset_button.on_clicked(reset)
 cities_button.on_clicked(show_cities)
+names_button.on_clicked(show_storm_names)
 
 plt.show()
