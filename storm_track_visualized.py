@@ -136,7 +136,7 @@ def reset(event):
     start_year_slider.reset()
     end_year_slider.reset()
 
-def show_cities(event):
+def show_city(event):
     global show_cities
     
     if show_cities == True:
@@ -207,7 +207,7 @@ def write_storm_info():
 
 
 reset_button.on_clicked(reset)
-cities_button.on_clicked(show_cities)
+cities_button.on_clicked(show_city)
 names_button.on_clicked(show_storm_names)
 
 write_storm_info()
