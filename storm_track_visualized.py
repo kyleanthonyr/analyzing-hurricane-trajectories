@@ -19,10 +19,10 @@ with open(city_path, 'rb') as file:
 storm_data['time'] = pd.to_datetime(storm_data['time'])
 
 gulf_coast_bounds = {
-    "lat_min": 10.0,
+    "lat_min": 5.0,
     "lat_max": 35.0,
     "lon_min": -100.0,
-    "lon_max": -80.0
+    "lon_max": -70.0
 }
 
 current_year = datetime.now().year
